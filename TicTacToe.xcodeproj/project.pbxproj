@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27C3EEF52AEAC4C7006C6395 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C3EEF42AEAC4C7006C6395 /* main.cpp */; };
+		27C3EF012AEAC522006C6395 /* libsfml-network.2.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3EEFC2AEAC522006C6395 /* libsfml-network.2.6.0.dylib */; };
+		27C3EF022AEAC522006C6395 /* libsfml-audio.2.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3EEFD2AEAC522006C6395 /* libsfml-audio.2.6.0.dylib */; };
+		27C3EF032AEAC522006C6395 /* libsfml-graphics.2.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3EEFE2AEAC522006C6395 /* libsfml-graphics.2.6.0.dylib */; };
+		27C3EF042AEAC522006C6395 /* libsfml-system.2.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3EEFF2AEAC522006C6395 /* libsfml-system.2.6.0.dylib */; };
+		27C3EF052AEAC522006C6395 /* libsfml-window.2.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3EF002AEAC522006C6395 /* libsfml-window.2.6.0.dylib */; };
+		27C3EF162AEC269F006C6395 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C3EF152AEC269F006C6395 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,15 @@
 
 /* Begin PBXFileReference section */
 		27C3EEF12AEAC4C7006C6395 /* TicTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToe; sourceTree = BUILT_PRODUCTS_DIR; };
-		27C3EEF42AEAC4C7006C6395 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		27C3EEFC2AEAC522006C6395 /* libsfml-network.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.6.0.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.0/lib/libsfml-network.2.6.0.dylib"; sourceTree = "<group>"; };
+		27C3EEFD2AEAC522006C6395 /* libsfml-audio.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.6.0.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.0/lib/libsfml-audio.2.6.0.dylib"; sourceTree = "<group>"; };
+		27C3EEFE2AEAC522006C6395 /* libsfml-graphics.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.6.0.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.0/lib/libsfml-graphics.2.6.0.dylib"; sourceTree = "<group>"; };
+		27C3EEFF2AEAC522006C6395 /* libsfml-system.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.6.0.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.0/lib/libsfml-system.2.6.0.dylib"; sourceTree = "<group>"; };
+		27C3EF002AEAC522006C6395 /* libsfml-window.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.6.0.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.0/lib/libsfml-window.2.6.0.dylib"; sourceTree = "<group>"; };
+		27C3EF0B2AEC250B006C6395 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		27C3EF122AEC25C3006C6395 /* State.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
+		27C3EF132AEC25C3006C6395 /* StateManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateManager.cpp; sourceTree = "<group>"; };
+		27C3EF152AEC269F006C6395 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C3EF012AEAC522006C6395 /* libsfml-network.2.6.0.dylib in Frameworks */,
+				27C3EF022AEAC522006C6395 /* libsfml-audio.2.6.0.dylib in Frameworks */,
+				27C3EF032AEAC522006C6395 /* libsfml-graphics.2.6.0.dylib in Frameworks */,
+				27C3EF042AEAC522006C6395 /* libsfml-system.2.6.0.dylib in Frameworks */,
+				27C3EF052AEAC522006C6395 /* libsfml-window.2.6.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +61,7 @@
 			children = (
 				27C3EEF32AEAC4C7006C6395 /* TicTacToe */,
 				27C3EEF22AEAC4C7006C6395 /* Products */,
+				27C3EEFB2AEAC521006C6395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +76,32 @@
 		27C3EEF32AEAC4C7006C6395 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				27C3EEF42AEAC4C7006C6395 /* main.cpp */,
+				27C3EF0B2AEC250B006C6395 /* include */,
+				27C3EF112AEC25C3006C6395 /* src */,
+				27C3EF152AEC269F006C6395 /* main.cpp */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		27C3EEFB2AEAC521006C6395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C3EEFD2AEAC522006C6395 /* libsfml-audio.2.6.0.dylib */,
+				27C3EEFE2AEAC522006C6395 /* libsfml-graphics.2.6.0.dylib */,
+				27C3EEFC2AEAC522006C6395 /* libsfml-network.2.6.0.dylib */,
+				27C3EEFF2AEAC522006C6395 /* libsfml-system.2.6.0.dylib */,
+				27C3EF002AEAC522006C6395 /* libsfml-window.2.6.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C3EF112AEC25C3006C6395 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				27C3EF122AEC25C3006C6395 /* State.cpp */,
+				27C3EF132AEC25C3006C6395 /* StateManager.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C3EEF52AEAC4C7006C6395 /* main.cpp in Sources */,
+				27C3EF162AEC269F006C6395 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +287,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/sfml/2.6.0/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/sfml/2.6.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +300,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/sfml/2.6.0/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/sfml/2.6.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
